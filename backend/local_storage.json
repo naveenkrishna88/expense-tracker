@@ -1,0 +1,84 @@
+{
+  "groups": [
+    {
+      "group_id": "grp_general",
+      "group_name": "General Expenses",
+      "status": "active",
+      "created_at": "2026-09-09T08:20:32.224880+00:00"
+    },
+    {
+      "group_id": "grp_goa",
+      "group_name": "Goa Trip",
+      "status": "active",
+      "created_at": "2026-09-09T08:20:32.224965+00:00"
+    },
+    {
+      "group_id": "grp_reno",
+      "group_name": "Home Renovation",
+      "status": "active",
+      "created_at": "2026-09-09T08:20:32.224988+00:00"
+    }
+  ],
+  "categories": [
+    {
+      "category_id": "Groceries",
+      "category_name": "Groceries",
+      "color": "#10b981",
+      "icon": "Apple",
+      "created_at": "2026-09-09T08:20:32.224988+00:00"
+    },
+    {
+      "category_id": "hi",
+      "category_name": "hi",
+      "color": "#10b981",
+      "icon": "Tag",
+      "created_at": "2026-09-09T11:33:00.050941+00:00"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "8f84be0a-ce1f-4059-b926-c3295d5d74c3",
+      "date": "2026-09-09",
+      "amount": 450.0,
+      "description": "Artisan Coffee & Croissant",
+      "category": "Food",
+      "payment_mode": "UPI",
+      "group_id": "grp_general",
+      "created_at": "2026-09-09T08:20:32.225228+00:00",
+      "is_deleted": false
+    },
+    {
+      "id": "c6dc35dd-76b1-4956-bf2c-50f3d82d70a2",
+      "date": "2026-09-09",
+      "amount": 2800.0,
+      "description": "Flight Ticket Advance",
+      "category": "Travel",
+      "payment_mode": "Credit Card",
+      "group_id": "grp_goa",
+      "created_at": "2026-09-09T08:20:32.225391+00:00",
+      "is_deleted": false
+    },
+    {
+      "id": "d43f0af8-0e14-4fdf-9a26-d1e0fcdb8fb9",
+      "date": "2026-09-09",
+      "amount": 1200.0,
+      "description": "High-Speed Internet Bill",
+      "category": "Utilities",
+      "payment_mode": "Net Banking",
+      "group_id": "grp_general",
+      "created_at": "2026-09-09T08:20:32.225512+00:00",
+      "is_deleted": false
+    },
+    {
+      "id": "017e9b49-51f5-4cc9-a0b3-6685973f0f19",
+      "date": "2026-09-03",
+      "amount": 100.0,
+      "description": "food",
+      "category": "Food",
+      "payment_mode": "UPI",
+      "group_id": "grp_general",
+      "created_at": "2026-09-09T08:36:41.708629+00:00",
+      "is_deleted": false
+    }
+  ]
+}
